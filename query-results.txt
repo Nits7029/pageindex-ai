@@ -1,0 +1,614 @@
+============================================================
+📄 PAGEINDEX - BATCH QUERY RESULTS
+🕐 Generated: 2/27/2026, 4:12:40 PM
+📌 Document ID: pi-cmlrzt9ya02eo0eo9sxn0dcjl
+❓ Total Questions: 49
+============================================================
+
+[Q1] What are Ivologist’s business hours from Monday to Friday, and in which time zone are they listed?
+------------------------------------------------------------
+Answer: I'll extract the business hours information from the document for you. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-2"} Based on the document, **Ivologist's business hours from Monday to Friday are 8am - 6pm Central Standard Time (CST)**.
+
+The document also notes that all appointments are booked in the patient's local time zone, though the business hours are listed in Central Standard Time.
+Tokens: 284  |  Status: success
+============================================================
+
+[Q2] What are Ivologist’s weekend business hours on Saturday and Sunday?
+------------------------------------------------------------
+Answer: I'll help you find Ivologist's weekend business hours. Let me search through the document for this information. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-2"} Based on the document, Ivologist's weekend business hours are:
+
+- **Saturday**: 9am - 4pm Central Standard Time
+- **Sunday**: 9am - 1pm Central Standard Time
+
+All appointments are booked in the patient's local time zone.
+Tokens: 282  |  Status: success
+============================================================
+
+[Q3] Are Ivologist appointments booked in Central Time or the patient’s local time zone?
+------------------------------------------------------------
+Answer: I'll search the document for information about appointment time zones. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-7"} According to the document, **all appointments are booked in the patient's local time zone**, not Central Time.
+
+The business hours themselves operate in Central Standard Time (e.g., Monday-Friday 8am-6pm CST), but when patients book appointments, they are scheduled according to the patient's own local time zone for convenience.
+Tokens: 209  |  Status: success
+============================================================
+
+[Q4] Does Ivologist have any physical clinic locations that patients can visit?
+------------------------------------------------------------
+Answer: I'll search the document for information about physical clinic locations. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-2"} **No, Ivologist does not have physical clinic locations.** 
+
+According to the document, Ivologist is a **telehealth clinic** that services all 50 states virtually. Everything is done through a secure patient portal, and they explicitly state: "We don't have a physical location to go to! Everything is done virtually."
+
+Patients can book appointments online, and all consultations are conducted remotely. Medication is then shipped directly to patients in all 50 states.
+Tokens: 317  |  Status: success
+============================================================
+
+[Q5] How many U.S. states does Ivologist service, and is the service virtual or in-person?
+------------------------------------------------------------
+Answer: I'll extract the relevant information from the document to answer your questions about Ivologist's service coverage and delivery method. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-2"} Based on the document:
+
+**Number of U.S. States:** Ivologist services **all 50 states**.
+
+**Service Type:** The service is **virtual** (telehealth). According to the document: "We are a telehealth clinic so we don't have a physical location to go to! Everything is done virtually through a secure patient portal."
+
+All provider appointments are conducted online through their secure patient portal, and they ship medications to all 50 states.
+Tokens: 335  |  Status: success
+============================================================
+
+[Q6] Does Ivologist ship medications internationally outside the United States?
+------------------------------------------------------------
+Answer: I'll search the document for information about international shipping policies. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-7"} **No, Ivologist does not ship medications internationally.** The document clearly states on page 1:
+
+> "We ship to ALL 50 states. Provider appointments can start as early as 6am central time. **Ivologist does not ship internationally.**"
+
+Ivologist is a US-based telehealth clinic that services all 50 states virtually, but shipping is limited to within the United States only.
+Tokens: 222  |  Status: success
+============================================================
+
+[Q7] What is the earliest time provider appointments can start, and in which time zone?
+------------------------------------------------------------
+Answer: I'll extract the relevant information about provider appointment times from the document. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-7"} According to the document, **provider appointments can start as early as 6am Central Time** (CST).
+
+The document also notes that while business hours run from 8am-6pm Central Time on weekdays, all appointments are booked in the patient's local time zone.
+Tokens: 197  |  Status: success
+============================================================
+
+[Q8] What phone number should patients call to contact Ivologist directly?
+------------------------------------------------------------
+Answer: I'll extract the contact information from the document to find the phone number for patients to contact Ivologist directly. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-7"} Patients should call **210-436-8822** or **507-IVO-HELP** to contact Ivologist directly.
+
+The phone system has different extensions for specific departments:
+- Extension 1: Scheduling
+- Extension 2: Paperwork
+- Extension 3: Billing
+- Extension 4: Pharmacy
+- Extension 5: Nursing
+- Extension 6: Spanish line
+Tokens: 233  |  Status: success
+============================================================
+
+[Q9] Which phone extension should a patient use to reach the scheduling department?
+------------------------------------------------------------
+Answer: I'll search the document for information about the scheduling department's phone extension. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} Now let me search the business info section and other relevant pages for phone extension information: {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-2"} Perfect! I found the information. According to the document, patients should use **extension 1** to reach the scheduling department.
+
+The main phone number is 210-436-8822 or 507-IVO-HELP, and the extensions are:
+- **Extension 1** - SCHEDULING
+- Extension 2 - PAPERWORK
+- Extension 3 - BILLING
+- Extension 4 - PHARMACY
+- Extension 5 - NURSING
+- Extension 6 - Spanish line
+Tokens: 344  |  Status: success
+============================================================
+
+[Q10] Which extension should be used for billing-related questions?
+------------------------------------------------------------
+Answer: I'll help you find information about which extension to use for billing-related questions. Let me search through the document. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-2"} Based on the document, **extension 3** should be used for billing-related questions.
+
+The document states: "The extension for **SCHEDULING** is 1, the extension for **PAPERWORK** is 2, the extension for **BILLING** is 3, the extension for **PHARMACY** is 4, and the extension for **NURSING** is 5, and the extension for the spanish line is 6."
+
+You can reach Ivologist at 210-436-8822 or 507-IVO-HELP, then press 3 for billing inquiries.
+Tokens: 351  |  Status: success
+============================================================
+
+[Q11] Which extension connects a caller to the pharmacy department?
+------------------------------------------------------------
+Answer: I'll search the document for information about the pharmacy department extension. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-7"} **Extension 4** connects a caller to the pharmacy department.
+
+According to the document, when calling Ivologist at 210-436-8822, the extensions are:
+- Extension 1: Scheduling
+- Extension 2: Paperwork
+- Extension 3: Billing
+- **Extension 4: Pharmacy**
+- Extension 5: Nursing
+- Extension 6: Spanish line
+Tokens: 219  |  Status: success
+============================================================
+
+[Q12] Is there a Spanish-language phone line, and if so, which extension is it?
+------------------------------------------------------------
+Answer: I'll search the document for information about a Spanish-language phone line. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-7"} Yes, there is a Spanish-language phone line. **Extension 6** is for the Spanish line.
+
+The phone number to contact Ivologist is **210-436-8822** or **507-IVO-HELP**, and you would press extension **6** for Spanish language support.
+Tokens: 204  |  Status: success
+============================================================
+
+[Q13] Does Ivologist offer any online patient support communities, and what platform is used?
+------------------------------------------------------------
+Answer: I'll search the document for information about online patient support communities. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-7"} Yes, **Ivologist offers a Facebook support group** for patients. 
+
+**Platform:** Facebook
+
+**What it offers:**
+- Connect with other patients in the program
+- Ask questions and share weight loss experiences
+- Provide mutual support to one another
+- Ivologist nurses are active in the group to answer questions
+
+**How to join:** Request access through this link: https://www.facebook.com/share/g/1Au48mQ9aW/?mibextid=wwXlfr
+Tokens: 248  |  Status: success
+============================================================
+
+[Q14] Can patients book appointments online after business hours?
+------------------------------------------------------------
+Answer: I'll check the document for information about online appointment booking after business hours. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-2"} **Yes, patients can book appointments online after business hours.** 
+
+The document states: "Patients can book an appointment online using this link. Patients can also use the same link to book an appointment after hours https://patientportal.advancedmd.com/159698/onlinescheduling"
+
+This online scheduling system allows patients to book appointments even when the business is closed (outside of their operating hours: Monday-Friday 8am-6pm CST, Saturday 9am-4pm CST, Sunday 9am-1pm CST).
+Tokens: 334  |  Status: success
+============================================================
+
+[Q15] How long has Ivologist been a registered business entity in the United States?
+------------------------------------------------------------
+Answer: I'll search the document for information about Ivologist's registration as a business entity in the United States. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-2"} According to the document, **Ivologist has been a registered business entity in the United States for 7 years**.
+Tokens: 250  |  Status: success
+============================================================
+
+[Q16] What medications does Ivologist primarily offer for weight loss?
+------------------------------------------------------------
+Answer: {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-2"} Based on the document, **Ivologist primarily offers two medications for weight loss:**
+
+1. **Semaglutide**
+2. **Tirzepatide**
+
+Both are available as injectable medications (in vials with syringes provided) and also as oral supplements. The document mentions that these medications work as GLP-1 receptor agonists for weight management, and patients can expect an average weight loss of 1-4 lbs per week, though individual results vary.
+Tokens: 225  |  Status: success
+============================================================
+
+[Q17] What are the most common side effects reported for Semaglutide or Tirzepatide?
+------------------------------------------------------------
+Answer: I'll extract the information about common side effects for Semaglutide and Tirzepatide from the document. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "2-6"} Based on the document, the **most common side effects** reported for Semaglutide and Tirzepatide are:
+
+**Primary Side Effects:**
+- **Nausea** (noted as the most common)
+- Vomiting
+- Diarrhea
+- Abdominal cramping
+- Constipation
+- **Fatigue** (common as the body adjusts to decreased calorie intake)
+
+**Key Points:**
+- These side effects are typically **mild to moderate** in severity
+- They tend to **improve over time** as the body adjusts
+- The document recommends **eating lean, smaller meals** to help prevent nausea
+
+The document emphasizes that while these adverse effects are common, they are generally manageable and temporary as patients adapt to the medication.
+Tokens: 411  |  Status: success
+============================================================
+
+[Q18] Which side effect is reported as the most common among patients?
+------------------------------------------------------------
+Answer: I'll analyze the document to find information about the most common side effect reported among patients. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "2-4"} Based on the document, **nausea** is reported as the most common side effect among patients taking Semaglutide or Tirzepatide.
+
+The document states: "Mild to moderate nausea, vomiting, diarrhea, abdominal cramping, and constipation are common. **Nausea tends to be the most common side effect.**" 
+
+It also notes that fatigue can be common as the body adjusts to decreased calorie intake, and that side effects are typically mild and improve over time. The document recommends eating lean, smaller meals to help prevent nausea.
+Tokens: 352  |  Status: success
+============================================================
+
+[Q19] What dietary advice is given to help reduce nausea while on medication?
+------------------------------------------------------------
+Answer: I'll help you find the dietary advice for reducing nausea while on medication. Let me first check the document structure to locate the relevant section. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} Now let me extract the medication information section which likely contains the dietary advice for nausea: {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "2-4"} Based on the document, here's the dietary advice given to help reduce nausea while on medication:
+
+**"It is important to eat lean smaller meals to prevent nausea."**
+
+The document notes that nausea tends to be the most common side effect of Semaglutide and Tirzepatide medications. The key dietary recommendations are:
+
+1. **Eat lean meals** - Focus on lean protein and lighter foods
+2. **Eat smaller meals** - Reduce portion sizes to prevent overwhelming your digestive system
+
+The document also mentions that side effects like nausea are typically mild and improve over time as your body adjusts to the medication.
+Tokens: 394  |  Status: success
+============================================================
+
+[Q20] Which specific medical or family history automatically disqualifies a patient from treatment?
+------------------------------------------------------------
+Answer: I'll check the document for specific medical or family history that automatically disqualifies patients from treatment. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "7"} Based on the document, **a personal or family history of medullary thyroid cancer** automatically disqualifies a patient from treatment with Semaglutide or Tirzepatide.
+
+Specifically, the document states: "If the patient or anyone in their family has had a history of medullary thyroid cancer then they are not eligible for Semaglutide or Tirzepatide."
+
+If a patient is unsure about their family history, they can book an appointment with a provider to help determine eligibility.
+Tokens: 334  |  Status: success
+============================================================
+
+[Q21] What types of pharmacies does Ivologist use to compound medications?
+------------------------------------------------------------
+Answer: I'll extract the relevant information about the types of pharmacies Ivologist uses. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "2-3"} Based on the document, **Ivologist uses 503A and 503B certified compounding pharmacies**. These are pharmacies that are:
+
+- **Regulated by the FDA** for at-home use medication
+- Subject to standards ensuring **purity, safety, and effectiveness** of medications
+- Required to undergo extensive testing to ensure medications are pure and safe to dispense to clients
+
+The document notes that Ivologist services 50 states and works with several pharmacies, but they don't disclose pharmacy names upfront. The provider can provide the specific pharmacy name after your consultation.
+Tokens: 343  |  Status: success
+============================================================
+
+[Q22] Why does Ivologist not disclose the names of the pharmacies they work with?
+------------------------------------------------------------
+Answer: {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} I can see the document structure. Let me search the relevant sections to find information about pharmacy disclosure. The "BUSINESS INFO" and "Other Policies" sections seem most relevant. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-2,7"} Based on the document, Ivologist does not disclose the names of their pharmacies for the following reason:
+
+**They service 50 states and work with several different pharmacies** to ship medications from. Because of this multi-pharmacy network, the general staff does not provide pharmacy names. However, **providers can share the specific pharmacy name with patients after their consultation**.
+
+The document also clarifies that all pharmacies they work with are **503A & 503B certified compounding pharmacies regulated by the FDA**, which ensures purity, safety, and effectiveness of the medications through rigorous testing standards.
+Tokens: 370  |  Status: success
+============================================================
+
+[Q23] Who is allowed to disclose the pharmacy name to a patient?
+------------------------------------------------------------
+Answer: I'll search the document for information about who can disclose the pharmacy name to patients. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} Let me search the document for information about pharmacy disclosure policies. I'll check all pages since this specific policy isn't clearly indicated in the structure summary. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-7"} According to the document, **only the providers are allowed to disclose the pharmacy name to patients**.
+
+The policy states:
+
+> "We DO NOT give out the name of pharmacies because we service 50 states and have several pharmacies we ship from. The providers would be the only ones able to give out that information. The provider can provide the name of the pharmacy after your consultation!"
+
+This means that non-provider staff cannot share pharmacy names with patients—only the healthcare providers can provide this information following a patient's consultation.
+Tokens: 359  |  Status: success
+============================================================
+
+[Q24] What is meant by a maintenance dose in Ivologist’s medication programs?
+------------------------------------------------------------
+Answer: I'll search the document for information about maintenance doses in Ivologist's medication programs. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-7"} According to the document, **a maintenance dose is what you take after you've reached your target weight**. It serves one of two purposes:
+
+1. **To help you stay at your current weight**, or
+2. **To slowly reduce your medication use until you stop taking it completely**
+
+Essentially, the maintenance dose is used in the weight management phase after achieving your goal weight—either to maintain that weight or as part of a gradual weaning-off process.
+Tokens: 239  |  Status: success
+============================================================
+
+[Q25] How is the medication delivered to patients, and what form does it come in?
+------------------------------------------------------------
+Answer: I'll retrieve the relevant information about medication delivery and form from your document. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "2-4"} Based on the document, here's how the medication is delivered to patients and what form it comes in:
+
+## Medication Form:
+- The medication comes in a **vial**
+- **Syringes are provided** for patients to draw the medication from the vial
+- Patients self-inject the medication
+
+## Delivery Process:
+- After your appointment, medication is **shipped within 3-6 business days** once you've paid your invoice balance
+- The pharmacy sends a **tracking number via email** once the medication ships
+- The medication box includes your **dosing schedule and instructions**
+
+## Additional Options:
+- **Oral supplements** are also available for Semaglutide, Tirzepatide, and hair loss products
+
+The document also provides injection instructions via a YouTube video and offers nursing support at 210-436-8822 Ext #5 if patients need help with dosing or injection techniques.
+Tokens: 420  |  Status: success
+============================================================
+
+[Q26] Does Ivologist offer oral versions of Semaglutide or Tirzepatide?
+------------------------------------------------------------
+Answer: I'll check the document to see if Ivologist offers oral versions of these medications. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "2-4"} **Yes, Ivologist does offer oral versions of Semaglutide and Tirzepatide.**
+
+According to the document (page 2): *"We do offer oral medication for Semaglutide, Tirzepatide, and even hair loss products."*
+
+The standard medication format is injectable (comes in a vial with syringes), but oral supplements are available as an option for these medications.
+Tokens: 318  |  Status: success
+============================================================
+
+[Q27] Does Ivologist guarantee a specific amount of weight loss for patients?
+------------------------------------------------------------
+Answer: I'll check the document for information about weight loss guarantees. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} Based on the structure, I can see that pages 2-4 contain medication information that mentions weight loss. Let me extract that content. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "2-4"} **No, Ivologist does not guarantee a specific amount of weight loss.**
+
+According to the document, when patients ask how much weight they will lose on the medication, the policy states:
+
+> "We do not offer any guarantee on weight loss. Everyone's body reacts differently to the medication but the average is 1-4 lbs per week!"
+
+So while they provide an average range of 1-4 pounds per week, they clearly do not guarantee specific weight loss results, acknowledging that individual responses to the medication vary.
+Tokens: 357  |  Status: success
+============================================================
+
+[Q28] What is the average weekly weight loss range mentioned in the document?
+------------------------------------------------------------
+Answer: I'll search the document for information about the average weekly weight loss range. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-7"} Based on the document, the **average weekly weight loss range is 1-4 lbs per week**.
+
+The document specifically states on page 2: "People ask how much they will lose being on the medication and we answer with: We do not offer any guarantee on weight loss. Everyone's body reacts differently to the medication but the average is 1-4 lbs per week!"
+Tokens: 219  |  Status: success
+============================================================
+
+[Q29] Can Ivologist providers use lab results that a patient already has?
+------------------------------------------------------------
+Answer: I'll search the document for information about using existing patient lab results. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-4"} **Yes, Ivologist providers can use lab results that a patient already has.** 
+
+According to the document (page 2):
+
+> "If the patients have their labs done already, the Ivologist providers can use these labs! Patients are required to upload their labs in the patient portal prior to the appointment."
+
+So patients just need to upload their existing lab results to the patient portal before their appointment, and the provider can review and use them.
+Tokens: 311  |  Status: success
+============================================================
+
+[Q30] What are the two payment options if a patient needs new lab work?
+------------------------------------------------------------
+Answer: I'll extract information about payment options for new lab work from the document. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "2-4"} Based on the document, if a patient needs new lab work, the **two payment options** are:
+
+1. **Request coverage directly from their insurance**
+2. **Pay Ivologist $65 for a prepaid request for labs**
+
+The document notes that if patients already have their labs done, the providers can use those existing labs (which must be uploaded to the patient portal prior to the appointment).
+Tokens: 301  |  Status: success
+============================================================
+
+[Q31] Where can patients find their medication dosing schedule instructions?
+------------------------------------------------------------
+Answer: {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "2-4"} According to the document, patients can find their medication dosing schedule instructions in **two places**:
+
+1. **On the medication box** - The dosing schedule is labeled directly on the box that comes with the vial.
+
+2. **Nursing line** - Patients can also contact the nursing line at **210-436-8822 Ext #5** for assistance with their dosing schedule.
+
+The document emphasizes that the dosing schedule and instructions are clearly provided on the box packaging to help patients follow the proper dosing regimen.
+Tokens: 313  |  Status: success
+============================================================
+
+[Q32] What should a patient do if their medication runs out sooner than expected?
+------------------------------------------------------------
+Answer: I'll help you find information about what patients should do if their medication runs out sooner than expected. Let me search through the document. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-7"} Based on the document, here's what a patient should do if their medication runs out sooner than expected:
+
+**Contact the nursing department immediately** at **210-436-8822 Extension 5**.
+
+The nursing department will:
+- Review the patient's situation
+- Provide guidance on proper medication usage and timing
+
+The document specifically addresses this scenario where a patient may have expected their medication to last 8 weeks but it only lasted 6 weeks, for example. The nursing team is equipped to help troubleshoot dosing issues and ensure patients are using their medication correctly.
+
+Additionally, patients should note that when they need a refill, they should **call or text 1-2 weeks before running out** to schedule a new appointment with their provider, as Ivologist does not do automatic refills.
+Tokens: 402  |  Status: success
+============================================================
+
+[Q33] What paperwork must be completed after booking an appointment?
+------------------------------------------------------------
+Answer: I'll help you find information about the required paperwork after booking an appointment. Let me search through the document. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "2-3"} Based on the document, after booking an appointment, patients must complete the following paperwork:
+
+**Required Paperwork:**
+1. **4 consents**
+2. **Medical questionnaire**
+
+**Important Details:**
+- All paperwork must be completed in the **patient portal**
+- Paperwork must be filled out **1 hour prior to the appointment**
+- If not completed before that deadline, **the appointment will be cancelled**
+- Access to the portal is provided in the "Welcome to Ivologist!" email
+- The portal link is: https://pp-wfe-100.advancedmd.com/159698
+
+If patients need help with the paperwork, they can call 210-436-8822 for assistance. They'll also receive email and text notifications with further appointment details.
+Tokens: 396  |  Status: success
+============================================================
+
+[Q34] How long before the appointment must paperwork be completed to avoid cancellation?
+------------------------------------------------------------
+Answer: I'll help you find information about the paperwork deadline. Let me check the document structure first to locate the relevant section. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} Now let me extract the content from pages 2-3 where the medication information section mentions paperwork requirements: {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "2-3"} Based on the document, **paperwork must be completed 1 hour prior to the appointment**. If it is not completed before that time, the appointment will be cancelled.
+
+Specifically, patients need to fill out:
+- 4 consents
+- Medical questionnaire
+
+These can be accessed through the patient portal via the "Welcome to Ivologist!" email.
+Tokens: 329  |  Status: success
+============================================================
+
+[Q35] What happens if a patient fails to complete paperwork on time?
+------------------------------------------------------------
+Answer: I'll retrieve the document structure to locate information about paperwork completion timelines. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} Based on the structure, the paperwork requirement is mentioned in the MEDICATION INFO section (pages 2-4). Let me extract that content. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "2-4"} **If a patient fails to complete paperwork on time, their appointment will be cancelled.**
+
+Specifically, the policy states:
+- Patients must fill out 4 consents and a medical questionnaire in the patient portal
+- **Paperwork must be completed 1 hour prior to the appointment**
+- **If not completed before that time, the appointment will be cancelled**
+
+Patients receive access to the portal via a "Welcome to Ivologist!" email and get both email and text notifications about their appointment. If they need help with the paperwork, they can call 210-436-8822 for assistance.
+Tokens: 380  |  Status: success
+============================================================
+
+[Q36] Is there an instructional video available for self-injection, and where is it hosted?
+------------------------------------------------------------
+Answer: I'll search the document for information about instructional videos for self-injection. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "2-4"} Yes, there is an instructional video available for self-injection. According to the document:
+
+**Video Location:** The video is hosted on **YouTube**
+
+**Link:** https://youtu.be/qahq14N9jJQ?si=bxLpQw_0gfvR4Tvq
+
+The video provides instructions on how to properly inject yourself. If patients need additional help beyond the video, they can contact the nursing line at 210-436-8822.
+Tokens: 328  |  Status: success
+============================================================
+
+[Q37] What add-on products are available in addition to Semaglutide and Tirzepatide?
+------------------------------------------------------------
+Answer: I'll retrieve the document structure first to locate information about add-on products, then extract the relevant content. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} I can see from the structure that add-on products are mentioned in the "MEDICATION INFO" section (pages 2-4). Let me extract that content. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "2-4"} Based on the document, **Ivologist offers four add-on products** in addition to Semaglutide and Tirzepatide:
+
+1. **BioBoost Plus** - A custom blend of vitamins and amino acids that:
+   - Increases natural energy levels
+   - Activates and drives weight loss
+   - Helps regulate sleep
+   - Increases mood & mental clarity
+   - Boosts the immune system
+   - Available in 2 options
+
+2. **Vitamin B12**
+
+3. **NAD+ (Nicotinamide Adenine Dinucleotide)** - Provides:
+   - Cellular energy production support
+   - Enhanced metabolism
+   - Improved brain function
+   - Boosted endurance
+   - Healthy aging promotion
+   - DNA repair support
+   - Immune function support
+   - Protection against oxidative stress
+
+4. **Sermorelin**
+
+The document also mentions that Ivologist offers **oral supplements** for Semaglutide, Tirzepatide, and hair loss products. Patients should let their provider know during the appointment if they're interested in any add-ons.
+Tokens: 529  |  Status: success
+============================================================
+
+[Q38] What benefits does BioBoost Plus claim to provide?
+------------------------------------------------------------
+Answer: I'll search the document for information about BioBoost Plus benefits. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} Based on the structure, BioBoost Plus is mentioned in the MEDICATION INFO section. Let me extract that content: {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "2-4"} According to the document, **BioBoost Plus** claims to provide the following benefits:
+
+1. **Increases natural energy levels**
+2. **Activates and drives weight loss**
+3. **Helps regulate sleep**
+4. **Increases mood & mental clarity**
+5. **Boosts the immune system**
+
+The document describes it as "a custom blend of vitamins and amino acids specifically formulated for your body" and notes that it's available as an add-on to Semaglutide and Tirzepatide medications, with 2 different options offered.
+Tokens: 369  |  Status: success
+============================================================
+
+[Q39] When is the remaining balance charged after a patient appointment?
+------------------------------------------------------------
+Answer: I'll extract the relevant information about when the remaining balance is charged after a patient appointment. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "4-5"} Based on the document, **the remaining balance is charged 1-2 days after your appointment**.
+
+According to the billing department policy, after your appointment they will:
+1. Charge your payment method for the remaining balance (this happens 1-2 days after your visit)
+2. Send out your medication (takes 3-6 business days to arrive)
+Tokens: 295  |  Status: success
+============================================================
+
+[Q40] How long does medication delivery take after payment is completed?
+------------------------------------------------------------
+Answer: I'll look up the medication delivery timeline for you. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "4-5"} According to the document, **medication delivery takes 3-6 business days** after you have paid off your invoice balance.
+
+Here's the process:
+1. After your appointment, the billing department charges your payment method for the remaining balance (1-2 days after your visit)
+2. Once payment is completed, medication is sent out and takes 3-6 business days to arrive
+3. You'll receive a tracking number via email once the pharmacy ships the medication
+
+If you need assistance with delivery or tracking, you can contact the Pharmacy department at 210-436-8822 Ext #4.
+Tokens: 340  |  Status: success
+============================================================
+
+[Q41] Which department should a patient contact if they have delivery or shipping issues?
+------------------------------------------------------------
+Answer: {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-7"} If a patient has delivery or shipping issues, they should contact the **Pharmacy department** at **210-436-8822 Extension 4**.
+Tokens: 231  |  Status: success
+============================================================
+
+[Q42] Does Ivologist accept insurance as a form of payment?
+------------------------------------------------------------
+Answer: I'll check the document for information about insurance and payment policies. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-2,4-5"} **No, Ivologist does not accept insurance as a form of payment.**
+
+However, they do accept the following payment methods:
+- Debit or Credit cards
+- HSA (Health Savings Account)
+- FSA (Flexible Spending Account)
+- Care Credit
+- Affirm
+- Klarna
+- AfterPay
+
+For those needing flexible payment options, the billing department can send a link via email 24-48 hours after your appointment to set up payment plans through AfterPay, Affirm, Klarna, or Care Credit.
+Tokens: 342  |  Status: success
+============================================================
+
+[Q43] Which alternative payment options does Ivologist support for flexible payments?
+------------------------------------------------------------
+Answer: I'll help you find information about Ivologist's alternative payment options. Let me search through the document. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "4-5"} Based on the document, **Ivologist supports the following alternative payment options for flexible payments:**
+
+1. **AfterPay**
+2. **Affirm**
+3. **Klarna**
+4. **Care Credit**
+
+**How it works:**
+- After your appointment, the billing department will send you a link via email within 24-48 hours for your remaining charge
+- This link allows you to set up flexible payment plans through any of these services with Ivologist
+
+**Other accepted payment methods:**
+- Debit or Credit cards
+- HSA (Health Savings Account)
+- FSA (Flexible Spending Account)
+
+**Note:** Ivologist does not accept insurance.
+Tokens: 375  |  Status: success
+============================================================
+
+[Q44] What costs are included in the total program price?
+------------------------------------------------------------
+Answer: I'll extract the information about costs included in the total program price from your document. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "4-5"} Based on the document, the **total program price includes**:
+
+- **Booking fee** ($70 for weight loss programs, $149 for hormonal therapy programs)
+- **Virtual consultation with a provider**
+- **Medication**
+- **Supplies** (vials, syringes, etc.)
+- **Shipping and handling**
+
+The document explicitly states: **"No hidden fees or monthly subscriptions!"**
+
+The booking fee is non-refundable but is applied toward the total cost of the program you select.
+Tokens: 330  |  Status: success
+============================================================
+
+[Q45] What is the non-refundable booking fee for weight loss appointments?
+------------------------------------------------------------
+Answer: I'll search the document for information about the non-refundable booking fee for weight loss appointments. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-7"} Based on the document, the **non-refundable booking fee for weight loss appointments is $70**. This fee is applied toward the total cost of the program you select and covers the appointment booking only.
+
+For hormonal therapy programs, there is a higher booking fee of $149 (also non-refundable and applied toward the total program cost).
+Tokens: 219  |  Status: success
+============================================================
+
+[Q46] How long are Ivologist’s Semaglutide and Tirzepatide programs offered for?
+------------------------------------------------------------
+Answer: I'll find information about the program duration for Ivologist's Semaglutide and Tirzepatide programs. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-2"} Let me check the remaining pages for specific information about program duration. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "3-7"} Based on the document, **Ivologist's Semaglutide and Tirzepatide programs are available in one-month up to three-month packages**. The specific duration depends on what the patient requests during their consultation.
+Tokens: 399  |  Status: success
+============================================================
+
+[Q47] How soon can a patient typically get an appointment with a provider?
+------------------------------------------------------------
+Answer: I'll search the document for information about appointment timing for patients. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "1-2"} Based on the document, patients can book appointments **online using a provided link**, and the document notes that "**Provider appointments can start as early as 6am central time**." However, the specific timeframe for *how soon* a patient can typically get an appointment is not explicitly stated in the business information section.
+
+The document does mention that patients can book appointments:
+- During business hours (Monday-Friday 8am-6pm CST, Saturday 9am-4pm CST, Sunday 9am-1pm CST)
+- **After hours** using the online scheduling link
+- By calling 210-436-8822 (extension 1 for scheduling)
+
+The document emphasizes that patients should complete their paperwork in the patient portal **before appointments** and allows a 15-minute window before and after scheduled appointment times. However, it doesn't specify typical wait times like "same-day," "within 24 hours," or "within a week" for getting an appointment scheduled.
+Tokens: 427  |  Status: success
+============================================================
+
+[Q48] What steps must a patient follow to reschedule or cancel an appointment without losing the deposit?
+------------------------------------------------------------
+Answer: I'll retrieve the document structure first to locate the relevant section about rescheduling and cancellation policies. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} Now let me extract the appointment-related pages that likely contain the rescheduling and cancellation policy: {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "6-7"} Based on the document, here are the steps a patient must follow to reschedule or cancel an appointment without losing the deposit:
+
+## **To Reschedule:**
+- **Call the scheduling team** at **210-436-8822 ext 1**
+- **Must reschedule at least 24 hours prior** to the appointment to avoid losing the deposit
+
+## **To Cancel:**
+- **Call the scheduling team** at **210-436-8822 ext 1**  
+- **Must cancel at least 24 hours prior** to the appointment to avoid losing the deposit
+
+**Key requirement:** The critical factor is the **24-hour advance notice** - whether rescheduling or canceling, patients must contact the scheduling team at least 24 hours before their scheduled appointment time to retain their deposit.
+Tokens: 428  |  Status: success
+============================================================
+
+[Q49] What does the BUD (Beyond Use Date) indicate on a medication vial?
+------------------------------------------------------------
+Answer: I'll search the document for information about BUD (Beyond Use Date) on medication vials. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf"} Perfect! I found the section about BUD Date. Let me extract that specific content from page 7. {"doc_name": "New_Ivologist Business Policies (3)_1771357879667.pdf", "pages": "7"} According to the document, the **BUD (Beyond Use Date)** refers to **the date until which a medication is expected to remain effective to use as long as the medication is stored as directed**.
+
+In other words, it indicates the expiration date by which the medication should be used to ensure its effectiveness, provided it has been stored properly according to the directions.
+Tokens: 320  |  Status: success
+============================================================

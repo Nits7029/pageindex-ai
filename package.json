@@ -1,0 +1,17 @@
+{
+  "name": "pageindex-sample",
+  "version": "1.0.0",
+  "description": "Sample project using PageIndex AI API with JavaScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "upload": "node upload.js",
+    "query": "node query.js"
+  },
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.4.5"
+  }
+}
