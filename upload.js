@@ -1,38 +1,38 @@
 // ================================================
 // upload.js  — UPLOAD ONLY
-// Use this if you just want to upload a PDF and
-// get a document ID to use later.
+// Upload a PDF and wait until the document is
+// ready for queries.
 //
-// Run with: node upload.js
+// Run with: node upload.js [path/to/file.pdf]
 // ================================================
 
 import dotenv from "dotenv";
-import { uploadDocument, waitForProcessing } from "./pageindexClient.js";
 import path from "path";
+import { uploadDocument, waitForProcessing } from "./pageindexClient.js";
 
 dotenv.config();
 
 const API_KEY = process.env.PAGEINDEX_API_KEY;
-
-// ⚙️ Change this to your PDF file path
 const PDF_FILE = process.argv[2] || "./sample.pdf";
+
+function requireApiKey() {
+  if (!API_KEY || API_KEY === "YOUR_API_KEY_HERE") {
+    console.error("❌ ERROR: Please set PAGEINDEX_API_KEY in your .env file.");
+    process.exit(1);
+  }
+}
 
 async function uploadOnly() {
   console.log("📤 PageIndex - Document Upload Tool");
   console.log("=".repeat(50));
 
-  if (!API_KEY || API_KEY === "YOUR_API_KEY_HERE") {
-    console.error("❌ Please set your PAGEINDEX_API_KEY in the .env file");
-    process.exit(1);
-  }
+  requireApiKey();
 
   try {
     const filename = path.basename(PDF_FILE);
     console.log(`File: ${filename}`);
 
-    const result = await uploadDocument(API_KEY, PDF_FILE);
-    const docId = result.doc_id;
-
+    const { doc_id: docId } = await uploadDocument(API_KEY, PDF_FILE);
     await waitForProcessing(API_KEY, docId);
 
     console.log("\n" + "=".repeat(50));
