@@ -5,6 +5,7 @@
 // document index.
 // ================================================
 
+import fs from "fs";
 import dotenv from "dotenv";
 import {
   uploadDocument,
@@ -40,6 +41,13 @@ async function main() {
   console.log("=".repeat(60));
 
   requireApiKey();
+
+  if (!fs.existsSync(PDF_FILE)) {
+    console.error(`❌ ERROR: File not found: "${PDF_FILE}"`);
+    console.error("   Please provide a valid PDF file path as the first argument.");
+    console.error("   Example: node index.js ./my-document.pdf");
+    process.exit(1);
+  }
 
   try {
     const uploadResult = await uploadDocument(API_KEY, PDF_FILE);
