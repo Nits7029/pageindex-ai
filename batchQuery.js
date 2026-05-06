@@ -8,7 +8,7 @@
 // ================================================
 
 import dotenv from "dotenv";
-import fs from "fs";
+import { promises as fs } from "fs";
 import { chatWithDocument, getDocumentStatus } from "./pageindexClient.js";
 
 dotenv.config();
@@ -186,7 +186,7 @@ function printSummary(results) {
     console.log(`📋 Total      : ${results.length}`);
 }
 
-function saveResultsToFile(results) {
+async function saveResultsToFile(results) {
     const timestamp = new Date().toLocaleString();
     const lines = [
         "=".repeat(60),
@@ -208,7 +208,7 @@ function saveResultsToFile(results) {
         );
     });
 
-    fs.writeFileSync(CONFIG.OUTPUT_FILE, lines.join("\n"), "utf-8");
+    await fs.writeFile(CONFIG.OUTPUT_FILE, lines.join("\n"), "utf-8");
     console.log(`\n💾 Results saved to: ${CONFIG.OUTPUT_FILE}`);
 }
 
@@ -232,10 +232,8 @@ async function runBatchQueries() {
     printSummary(results);
 
     if (CONFIG.SAVE_TO_FILE) {
-        saveResultsToFile(results);
+        await saveResultsToFile(results);
     }
-
-    console.log("=".repeat(60));
 }
 
 runBatchQueries();

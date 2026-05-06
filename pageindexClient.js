@@ -198,9 +198,9 @@ export async function chatWithDocument(apiKey, docId, question) {
 // The answer is a plain text string inside:
 //   response.choices[0].message.content
 // -----------------------------------------------
-export function printResults(chatResponse, question) {
+export function printResults(response, question) {
   console.log("\n" + "=".repeat(60));
-  console.log("💬 CHAT ANSWER");
+  console.log("💬 AI ANSWER");
   console.log("=".repeat(60));
 
   // Show the question if provided
@@ -209,22 +209,23 @@ export function printResults(chatResponse, question) {
     console.log("-".repeat(60));
   }
 
-  // Safety check — make sure the response has the expected shape
-  if (
-    !chatResponse ||
-    !chatResponse.choices ||
-    chatResponse.choices.length === 0
-  ) {
-    console.log("⚠️  No answer received. Full response:");
-    console.log(JSON.stringify(chatResponse, null, 2));
-    return;
+  let answer;
+
+  if (response && response.choices && response.choices.length > 0) {
+    answer = response.choices[0]?.message?.content;
+  } else if (typeof response === "string") {
+    answer = response;
+  } else if (response && typeof response.answer === "string") {
+    answer = response.answer;
+  } else if (response && typeof response.output_text === "string") {
+    answer = response.output_text;
+  } else if (response && typeof response.text === "string") {
+    answer = response.text;
   }
 
-  // Extract the answer text from choices[0].message.content
-  const answer = chatResponse.choices[0]?.message?.content;
-
   if (!answer) {
-    console.log("⚠️  Answer content is empty.");
+    console.log("⚠️  No answer received. Full response:");
+    console.log(JSON.stringify(response, null, 2));
     return;
   }
 
@@ -232,14 +233,14 @@ export function printResults(chatResponse, question) {
   console.log(answer);
 
   // Show token usage if available
-  if (chatResponse.usage) {
+  if (response && response.usage) {
     console.log("\n" + "-".repeat(60));
     console.log(
-      `📊 Tokens used — Prompt: ${chatResponse.usage.prompt_tokens} | ` +
-      `Answer: ${chatResponse.usage.completion_tokens} | ` +
-      `Total: ${chatResponse.usage.total_tokens}`
+      `📊 Tokens used — Prompt: ${response.usage.prompt_tokens} | ` +
+      `Answer: ${response.usage.completion_tokens} | ` +
+      `Total: ${response.usage.total_tokens}`
     );
-  }
 
-  console.log("=".repeat(60));
+    console.log("=".repeat(60));
+  }
 }
