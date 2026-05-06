@@ -9,7 +9,7 @@
 
 import dotenv from "dotenv";
 import fs from "fs";
-import { chatWithDocument } from "./pageindexClient.js";
+import { chatWithDocument, getDocumentStatus } from "./pageindexClient.js";
 
 dotenv.config();
 
@@ -82,21 +82,42 @@ const QUESTIONS = [
 
 const API_KEY = process.env.PAGEINDEX_API_KEY;
 
+function requireApiKey() {
+    if (!API_KEY || API_KEY === "YOUR_API_KEY_HERE") {
+        console.error("❌ ERROR: Please set PAGEINDEX_API_KEY in your .env file.");
+        console.error("   Example .env entry: PAGEINDEX_API_KEY=your_api_key_here");
+        console.error("   Get your key from: https://dash.pageindex.ai");
+        process.exit(1);
+    }
+}
+
 function validateConfig() {
     const errors = [];
-    
-    if (!API_KEY || API_KEY === "YOUR_API_KEY_HERE") {
-        errors.push("❌ Please set your PAGEINDEX_API_KEY in the .env file");
-    }
+
     if (!CONFIG.DOC_ID || CONFIG.DOC_ID === "YOUR_DOC_ID_HERE") {
         errors.push("❌ Please set CONFIG.DOC_ID (e.g., pi-abc123def456)");
     }
     if (QUESTIONS.length === 0) {
         errors.push("❌ Please add at least one question to QUESTIONS");
     }
-    
+
     if (errors.length > 0) {
         errors.forEach(console.error);
+        process.exit(1);
+    }
+}
+
+async function validateDocumentId() {
+    try {
+        const statusData = await getDocumentStatus(API_KEY, CONFIG.DOC_ID);
+        if (!statusData || !statusData.status) {
+            throw new Error("Unexpected response from document status check.");
+        }
+        console.log(`✅ Verified document ID: ${CONFIG.DOC_ID}`);
+        return statusData;
+    } catch (error) {
+        console.error(`❌ ERROR: Document validation failed for "${CONFIG.DOC_ID}"`);
+        console.error(`   ${error.message}`);
         process.exit(1);
     }
 }
@@ -113,13 +134,13 @@ function printHeader() {
 function processResult(questionNumber, question, chatResponse) {
     const answer = chatResponse?.choices?.[0]?.message?.content || "No answer received.";
     const usage = chatResponse?.usage;
-    
+
     console.log(`✅ Answer:`);
     console.log(`   ${answer.replace(/\n/g, "\n   ")}`);
     if (usage) {
         console.log(`   📊 Tokens: ${usage.total_tokens}`);
     }
-    
+
     return {
         number: questionNumber,
         question,
@@ -131,7 +152,7 @@ function processResult(questionNumber, question, chatResponse) {
 
 function processError(questionNumber, question, error) {
     console.error(`❌ Failed: ${error.message}`);
-    
+
     return {
         number: questionNumber,
         question,
@@ -144,7 +165,7 @@ function processError(questionNumber, question, error) {
 async function processQuestion(question, index) {
     const questionNumber = index + 1;
     console.log(`\n[${questionNumber}/${QUESTIONS.length}] ❓ ${question}`);
-    
+
     try {
         const chatResponse = await chatWithDocument(API_KEY, CONFIG.DOC_ID, question);
         return processResult(questionNumber, question, chatResponse);
@@ -156,7 +177,7 @@ async function processQuestion(question, index) {
 function printSummary(results) {
     const successCount = results.filter(r => r.status === "success").length;
     const failCount = results.filter(r => r.status === "failed").length;
-    
+
     console.log("\n" + "=".repeat(60));
     console.log("📊 BATCH COMPLETE — SUMMARY");
     console.log("=".repeat(60));
@@ -175,7 +196,7 @@ function saveResultsToFile(results) {
         `❓ Total Questions: ${results.length}`,
         "=".repeat(60)
     ];
-    
+
     results.forEach((result) => {
         lines.push(
             "",
@@ -186,32 +207,34 @@ function saveResultsToFile(results) {
             "=".repeat(60)
         );
     });
-    
+
     fs.writeFileSync(CONFIG.OUTPUT_FILE, lines.join("\n"), "utf-8");
     console.log(`\n💾 Results saved to: ${CONFIG.OUTPUT_FILE}`);
 }
 
 async function runBatchQueries() {
+    requireApiKey();
     validateConfig();
+    await validateDocumentId();
     printHeader();
-    
+
     const results = [];
-    
+
     for (let i = 0; i < QUESTIONS.length; i++) {
         const result = await processQuestion(QUESTIONS[i], i);
         results.push(result);
-        
+
         if (i < QUESTIONS.length - 1) {
             await new Promise((resolve) => setTimeout(resolve, CONFIG.DELAY_MS));
         }
     }
-    
+
     printSummary(results);
-    
+
     if (CONFIG.SAVE_TO_FILE) {
         saveResultsToFile(results);
     }
-    
+
     console.log("=".repeat(60));
 }
 
