@@ -33,6 +33,8 @@ async function uploadOnly() {
     console.log(`File: ${filename}`);
 
     const { doc_id: docId } = await uploadDocument(API_KEY, PDF_FILE);
+    console.log("🚀 ~ upload.js:36 ~ uploadOnly ~ docId:", docId);
+
     await waitForProcessing(API_KEY, docId);
 
     console.log("\n" + "=".repeat(50));
